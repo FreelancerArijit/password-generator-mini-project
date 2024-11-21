@@ -1,0 +1,108 @@
+.main{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.main .heading{
+  width: 2000px;
+  height: 147px;
+  background-color: blue;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+
+}
+
+.main .heading h2{
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+}
+
+.main .card{
+  height: 700px;
+  width: 2000px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-top: 50px;
+  /* border-radius: 20px; */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+
+.main .card .top{
+  width: 1600px;
+  height: 220px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main .card #text{
+  height: 145px;
+  width: 1200px;
+  /* border: none; */
+  border-radius: 20px;
+  padding-left: 30px;
+  font-size: 3rem;
+}
+
+.main .card button{
+  padding: 30px 85px;
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.main .card .bottom{
+  width: 1750px;
+  height: 220px;
+  /* background-color: green; */
+  font-size: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.main .card .bottom .first-row{
+  height:220px;
+  width: 800px;
+  display: flex;
+  gap: 175px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .card .bottom .second-row{
+  height:220px;
+  width: 710px;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .card .bottom input{
+  transform: scale(3);
+  padding-left: 25px;
+}
+
+.main .card .bottom #check{
+ transform: scale(4);
+}
